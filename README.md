@@ -2,6 +2,12 @@
 
 Aplikasi Android edukatif yang mengenalkan 20 kota di Indonesia: materi kota, ciri khas budaya, dan kuis interaktif. Proyek mata kuliah Pemrograman Mobile.
 
+## 📸 Tampilan Aplikasi
+
+| Menu Utama | Materi Kota | Ciri Khas Budaya | Kuis |
+|:---:|:---:|:---:|:---:|
+| ![Menu](docs/01-menu.png) | ![Materi Kota](docs/02-materi.png) | ![Ciri Khas](docs/03-ciri-khas.png) | ![Kuis](docs/04-kuis.png) |
+
 ## Fitur Utama
 
 - **Materi kota** — informasi 20 kota di Indonesia (Jakarta, Surabaya, Bandung, Medan, Yogyakarta, Padang, Makassar, Denpasar, dan lainnya) dengan navigasi sebelumnya/berikutnya.
