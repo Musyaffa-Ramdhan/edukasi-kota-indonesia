@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@drawable/bg_gradient">
+
+    <!-- Judul Kota -->
+    <TextView
+        android:id="@+id/tvJudulKota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Judul Kota"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#0d0d0c"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Gambar Kota -->
+    <ImageView
+        android:id="@+id/imgKota"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:src="@drawable/jakarta"
+        android:layout_marginBottom="24dp"
+        android:scaleType="centerCrop" />
+
+    <!-- Isi Materi -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/tvMateri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Isi materi kota akan tampil di sini..."
+            android:textSize="18sp"
+            android:textColor="#0d0d0c" />
+    </ScrollView>
+
+    <!-- Tombol Navigasi -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="8dp">
+
+        <Button
+            android:id="@+id/btnKotaPrev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Halaman Sebelumnya"
+            android:backgroundTint="#607D8B"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnKotaNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lanjut Halaman"
+            android:layout_marginStart="16dp"
+            android:backgroundTint="#FF9800"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <!-- Tombol Kembali ke Menu Utama -->
+    <Button
+        android:id="@+id/btnKembaliUtama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kembali ke Menu Utama"
+        android:backgroundTint="#9E9E9E"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

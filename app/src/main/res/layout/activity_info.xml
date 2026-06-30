@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@drawable/bg_gradient">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Info Aplikasi"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="#0c0d0d"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama: Musyaffa Ramdhan"
+        android:textColor="#0c0d0d"
+        android:textSize="24sp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kelas: 17.4A.37"
+        android:textColor="#0c0d0d"
+        android:textSize="24sp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIM: 17230828"
+        android:textColor="#0c0d0d"
+        android:textSize="24sp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mata Kuliah: Mobile Programming"
+        android:textColor="#0c0d0d"
+        android:textSize="24sp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aplikasi: Ujian Kota Indonesia"
+        android:textColor="#0c0d0d"
+        android:textSize="24sp"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnBackToMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kembali ke menu utama"
+        android:backgroundTint="#9E9E9E"
+        android:textColor="#0c0d0d" />
+</LinearLayout>

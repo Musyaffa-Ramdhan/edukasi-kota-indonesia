@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Style custom untuk teks ciri khas -->
+    <style name="CiriKhasStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#0d0d0c</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+
+</resources>

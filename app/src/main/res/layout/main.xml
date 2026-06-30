@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/bg_gradient">
+
+    <!-- Gambar Indonesia -->
+
+    <!-- Tulisan Selamat Datang -->
+
+    <ImageView
+        android:id="@+id/imgIndonesia"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="Peta Indonesia"
+        android:src="@drawable/indonesia" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selamat Datang di Aplikasi Kota!"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#090a0a"
+        android:layout_marginBottom="32dp" />
+
+    <!-- Tombol Materi -->
+    <Button
+        android:id="@+id/btnMateri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Materi Tentang Kota-Kota di Indonesia"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#03A9F4" />
+
+    <!-- Tombol Soal -->
+    <Button
+        android:id="@+id/btnSoal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Soal Evaluasi Kota-Kota Di Indonesia"
+        android:textStyle="bold"
+        android:backgroundTint="#03A9F4" />
+
+    <Button
+        android:id="@+id/btnCiriKhas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ciri Khas Kota-Kota Di Indonesia "
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"
+        android:backgroundTint="#03A9F4" />
+
+    <Button
+        android:id="@+id/btnInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Info Aplikasi"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#03A9F4" />
+
+
+</LinearLayout>
